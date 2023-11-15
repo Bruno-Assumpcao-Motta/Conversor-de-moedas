@@ -1,13 +1,15 @@
-var valorEmDolar = 64;
+var valorEmDolar = 14;
 var cotacaoDolar = 5.32;
 var valorEmReal = valorEmDolar * cotacaoDolar;
 valorEmReal = valorEmReal.toFixed(2);
 
-alert("R$ " + valorEmReal);
+alert(`${"Preciso de R$ " + valorEmReal} para converter ${"US$ " + valorEmDolar }`);
 
-var valorEmEuro = 50;
+
+
+var valorEmEuro = 80;
 var cotacaoEuro = 5.29;
-var valorEmEuro = valorEmEuro * cotacaoEuro;
-valorEmEuro = valorEmEuro.toFixed(2);
+var valorEmReal = valorEmEuro * cotacaoEuro;
+valorEmReal = valorEmReal.toFixed(2);
 
-alert(`${"A Cotação do euro é EUR $: " + valorEmReal}`)
+alert(`${"Preciso de R$ " + valorEmReal} para converter ${"EUR " + valorEmEuro}`);
